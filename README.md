@@ -6,6 +6,7 @@
 - `docker-compose rm [image_name]`: Remove a service.
 - `docker build -t tagName .`: Create a Docker image with a specified tag name based on the current directory (where a Dockerfile is located).
 - `docker images`: List all your Docker images.
+- `docker inspect service_ID or service_name`: For checking the current deployed dir on application.
 
 To get Kafka UI in your server:
 
