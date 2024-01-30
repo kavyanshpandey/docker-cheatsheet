@@ -34,3 +34,9 @@ Here are your additional Docker log commands presented in markdown format:
 - `tmux list-sessions` (for listing all active sessions)
 - `tmux kill-session -t my_session_name` (Deleting an active session)
 - `tmux new-session -d -s COMMAND` (For creating and running session in detach mode)
+
+## Nano
+- `nano filename` - Open file in edit mode.
+- `CTRL + O` - it will writeout the file.
+- `enter` - Save it
+- `CTRL + X` - exit from nano editor.
