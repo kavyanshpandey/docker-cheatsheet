@@ -47,3 +47,4 @@ Here are your additional Docker log commands presented in markdown format:
 - `bin/kafka-topics.sh --list --bootstrap-server localhost:9092` - List of kafka-topics.
 - `bin/kafka-topics.sh --create --topic test-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1` - Creating a kafka-topic.
 - `bin/kafka-topics.sh --delete --topic your-topic --bootstrap-server localhost:9092` - Deleting a topic.
+- `bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic your-topic --from-beginning` - Consuming data from a topic.
