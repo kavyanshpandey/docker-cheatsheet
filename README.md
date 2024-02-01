@@ -40,3 +40,10 @@ Here are your additional Docker log commands presented in markdown format:
 - `CTRL + O` - it will writeout the file.
 - `enter` - Save it
 - `CTRL + X` - exit from nano editor.
+
+## Kafka Commands
+- `bin/kafka-server-start.sh config/server.properties` - starting zookeeper.
+- `bin/kafka-server-start.sh config/server.properties` - starting kafka-server.
+- `bin/kafka-topics.sh --list --bootstrap-server localhost:9092` - List of kafka-topics.
+- `bin/kafka-topics.sh --create --topic test-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1` - Creating a kafka-topic.
+- `bin/kafka-topics.sh --delete --topic your-topic --bootstrap-server localhost:9092` - Deleting a topic.
