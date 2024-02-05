@@ -28,7 +28,7 @@ Here are your additional Docker log commands presented in markdown format:
 - `npm install -g pm2`
 - `pm2 start npm -- start -- --port 9111`
 - `pm2 list`
-- `pm2 stop <app_name_or_id>'
+- `pm2 stop <app_name_or_id>`
 
 ## TMUX (running process as session in Background)
 - `tmux list-sessions` (for listing all active sessions)
