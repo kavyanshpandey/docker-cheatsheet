@@ -53,3 +53,5 @@ Here are your additional Docker log commands presented in markdown format:
 ## Other commands
 - `mv old_name new_name` - renaming a file in ubuntu, macOS.
 - `unzip` - extracting a compres file.
+- `ssh -N -L 2222:localhost:80 user@ip` - ssh tunnel from remote to local
+- `ssh -N -R 5432:localhost:5432 user@ip` - ssh tunnel from local to remote
